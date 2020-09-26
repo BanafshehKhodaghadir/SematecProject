@@ -62,16 +62,27 @@
         android:inputType="textPassword"
         android:layout_gravity="center"/>
 
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:text="Cancel"
-        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal"
+        android:weightSum="2">>
 
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:gravity="center"
-        android:text="SAVE" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="77dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Cancel" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SAVE" />
+    </LinearLayout>
 
 </LinearLayout>
